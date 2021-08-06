@@ -2,8 +2,7 @@
 This is a proyect for make a ping with analysis functionalities.
 
 ## Requirements
-This only works on a linux os
-You need to have installed the following dependencies:
+This only works on a linux os and you need to have installed the following dependencies:
 <ul>
 	<li>Go compiler</li>
 	<li>UPX</li>
