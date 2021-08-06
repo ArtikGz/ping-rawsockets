@@ -13,8 +13,8 @@ import (
 )
 
 var (
-	times           = flag.Int("c", 4, "Times of repeats")
-	flagip          = flag.String("h", "127.0.0.1", "Host")
+	times           = flag.Int("c", 4, "Number of packets you want to send")
+	flagip          = flag.String("h", "127.0.0.1", "Host you want to ping")
 	ip              []byte
 	missedPackets   uint32
 	recievedPackets uint32
