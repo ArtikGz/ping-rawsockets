@@ -2,10 +2,9 @@
 This is a proyect for make a ping with analysis functionalities.
 
 ## Requirements
-This only works on a linux os and you need to have installed the following dependencies:
+This only tested on a linux os and you need to have installed the following dependencies:
 <ul>
-	<li>Go compiler</li>
-	<li>UPX</li>
+    <li>Go compiler</li>
 </ul>
 
 ## Instalation
@@ -29,7 +28,7 @@ Time: 0.489ms	TTL: 64 (Probably OS: Linux)
 Total sent: 4	Total recived: 4	Total lost: 0	100.00% Recieved
 ```
 
-You can see the help by typing -help
+You can see the help by typing -help (or anything that does not exist)
 ```console
 $ ./ping -help
 Usage of ping:
@@ -40,7 +39,7 @@ Usage of ping:
 ```
 
 ## Incoming Features
-I have in mind adding the following features:
+I'm working on the following features:
 <ul>
 	<li>Port scan</li>
 	<li>DNS Resolve</li>
